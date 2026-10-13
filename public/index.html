@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Buta Terhadap Rupa — Keadilan Tanpa Pandang Bulu</title>
+  <meta name="description" content="Landing page bertema keadilan dengan efek 2.5D.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=135">
+</head>
+<body class="is-loading">
+
+  <!-- Paper loader inspired by the original editorial intro. -->
+  <div class="loader" id="loader" role="status" aria-live="polite">
+    <div class="loader__header">
+      <span><i aria-hidden="true"></i> SYSTEM_INIT // ARCHIVE_2026</span>
+      <span>DUCTUYEN DESIGN</span>
+    </div>
+    <div class="loader-mark">
+      <p class="loader-mark__quote">“Her lips forgot the prayers, only the fractures remember what she begged for.”</p>
+      <span class="loader-mark__title">BROKEN</span>
+      <span class="loader-mark__count"><span id="count">0</span><small>%</small></span>
+      <div class="loader-progress" role="progressbar" aria-label="Memuat karya" aria-valuemin="0" aria-valuemax="100">
+        <div id="bar"></div>
+      </div>
+      <span class="loader-mark__caption">PREPARING THE EXPERIENCE</span>
+    </div>
+    <div class="loader__footer"><span>VISUAL ARCHIVE</span><span>01 — 03</span></div>
+  </div>
+
+  <div class="site-content" id="siteContent">
+    <!-- HERO: 3 lapisan (latar → judul → patung) -->
+    <main class="hero" id="hero">
+      <div class="stage" id="stage">
+        <div class="layer layer--bg" data-depth="0.25">
+          <img src="img/hero-bg.jpg" alt="" draggable="false">
+        </div>
+
+        <div class="layer layer--title" data-depth="0.55">
+          <h1 class="title">
+            <span>Lorem ipsum dolor sit amet</span>
+            <span>consectetur adipiscing elit</span>
+          </h1>
+        </div>
+
+        <div class="layer layer--statue" data-depth="1">
+          <img src="img/statue.png" id="statueImg" alt="Patung Dewi Keadilan dengan mata tertutup kain" draggable="false">
+        </div>
+      </div>
+    </main>
+
+  </div>
+
+  <script src="main.js?v=135"></script>
+</body>
+</html>

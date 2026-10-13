@@ -1,0 +1,8 @@
+{
+  "name": "landing-justice",
+  "version": "1.0.0",
+  "description": "Landing page dengan loading screen, transisi gulir ke atas, dan efek 2.5D",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=16" }
+}
